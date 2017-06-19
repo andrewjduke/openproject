@@ -14,7 +14,7 @@ class DelayedJobNeverRanCheck < OkComputer::Check
       mark_message "#{never_ran} jobs still waiting to be executed (within threshold=#{threshold})"
     else
       mark_failure
-      mark_message "#{never_ran} jobs stil waiting to be executed (over threshold=#{threshold})"
+      mark_message "#{never_ran} jobs still waiting to be executed (over threshold=#{threshold})"
     end
   end
 end
